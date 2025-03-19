@@ -1,7 +1,7 @@
 const std = @import("std");
+const stdout = std.io.getStdOut().writer();
 const SocketConf = @import("config.zig");
 const Request = @import("request.zig");
-const stdout = std.io.getStdOut().writer();
 const Response = @import("response.zig");
 
 pub fn main() !void {
